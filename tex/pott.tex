@@ -5,15 +5,15 @@
 \setlength{\textheight}{9.5in}
 \setlength{\headheight}{0in}
 \setlength{\headsep}{0in}
-\setlength{\parindent}{1.1\baselineskip}
+\setlength{\parindent}{0in}
+\setlength{\parskip}{0.5\baselineskip}
 
 % header and footer
-\newcommand{\pottheader}{%
-  \section*{~\hfill Physics On The Toilet \hfill ~}%
-  \vfill}
-\newcommand{\pottfooter}{%
-  \vfill %
-  ~\hfill Comments, questions, suggestions? Email \texttt{pottnyu@gmail.com}. \hfill ~}
+\newenvironment{pottproblem}{%
+  ~\hfill {\LARGE\textbf{Physics On The Toilet}} \hfill ~%
+  \vfill\large}{%
+  \vfill{\normalsize%
+  ~\hfill Comments, questions, suggestions? Email \texttt{pottnyu@gmail.com}. \hfill ~}}
 
 % problem formatting
 \newcommand{\problemname}{Problem}
