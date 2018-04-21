@@ -7,7 +7,7 @@ PS2PDF = ps2pdf
 
 .SUFFIXES: .tex .dvi .ps .pdf
 
-ALLFILES = 171_sliding_cue.pdf
+ALLFILES = 171_sliding_cue.pdf 266_uniform_current.pdf
 all: $(ALLFILES) clean
 
 .tex.pdf:
