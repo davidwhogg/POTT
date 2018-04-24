@@ -1,4 +1,5 @@
-# WARNING: WILL FAIL ON STUFF OLDER THAN 2011 BECAUSE OF pdflatex ISSUES
+# NEED PATSUBST
+# NEED pott.tex dependency
 
 RM = /bin/rm -f
 DVIPS = dvips -Ppdf # The -Ppdf option includes fonts but can screw up on
@@ -7,7 +8,7 @@ PS2PDF = ps2pdf
 
 .SUFFIXES: .tex .dvi .ps .pdf
 
-ALLFILES = 171_sliding_cue.pdf 266_uniform_current.pdf
+ALLFILES = 171_sliding_cue.pdf 266_uniform_current.pdf 943_invisible_gw.pdf
 all: $(ALLFILES) clean
 
 .tex.pdf:
