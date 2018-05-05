@@ -1,10 +1,4 @@
-\usepackage{url, graphicx, epstopdf, xcolor, pagecolor}
-
-% color definitions for different subjects
-\definecolor{mechanicscolor}{rgb}{1.0,1.0,1.0}
-\definecolor{emcolor}{rgb}{1.0,0.9,0.9}
-\definecolor{quantumcolor}{rgb}{0.9,0.9,1.0}
-\definecolor{advancedcolor}{rgb}{0.9,1.0,0.9}
+\usepackage{url, graphicx, epstopdf}
 
 % page layout
 \setlength{\topmargin}{-0.25in}
@@ -16,10 +10,11 @@
 
 % header and footer
 \newenvironment{pottproblem}{%
-  ~\hfill {\LARGE\textbf{Physics On The Toilet}} \hfill ~%
+  \centerline{\LARGE\textbf{Physics On The Toilet}}%
+  \centerline{\large\textsf{\#pott}}%
   \vfill\large}{%
   \vfill{\normalsize%
-  \centerline{Comments, questions, suggestions? Email \texttt{<pottnyu@gmail.com>}. {\#POTT}}}}
+  \centerline{Comments, questions, suggestions? Email \texttt{<pottnyu@gmail.com>}.}}}
 
 % problem formatting
 \newcommand{\problemname}{Problem}
