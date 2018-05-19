@@ -8,10 +8,14 @@ PS2PDF = ps2pdf
 
 .SUFFIXES: .tex .dvi .ps .pdf
 
-ALLFILES = 171_sliding_cue.pdf 266_uniform_current.pdf 410_double_sho.pdf 943_invisible_gw.pdf
+ALLFILES = 171_sliding_cue.pdf \
+	266_uniform_current.pdf \
+	381_hot_water.pdf \
+	410_double_sho.pdf \
+	908_elevator.pdf 943_invisible_gw.pdf
 all: $(ALLFILES) clean
 
-.tex.pdf:
+.tex.pdf: $*.tex pott.tex
 	pdflatex $*
 	pdflatex $*
 	pdflatex $*

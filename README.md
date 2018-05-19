@@ -15,3 +15,4 @@ This project is secret!
 - **2018-04-30** posting of problem 943, plus some hardware repairs
 - **2018-05-04** incremental additional hardware installations
 - **2018-05-07** posting of problem 410
+- **2018-05-16** posting of problem 908
