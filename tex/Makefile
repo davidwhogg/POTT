@@ -12,7 +12,7 @@ ALLFILES = 125_sailing.pdf 171_sliding_cue.pdf \
 	266_uniform_current.pdf \
 	381_hot_water.pdf \
 	410_double_sho.pdf \
-	908_elevator.pdf 943_invisible_gw.pdf
+	908_elevator.pdf 943_invisible_gw.pdf 971_21cm.pdf
 all: $(ALLFILES) clean
 
 .tex.pdf: $*.tex pott.tex
