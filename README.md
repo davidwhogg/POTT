@@ -20,4 +20,4 @@ This project is secret!
 - **2018-06-18** posting of problem 971
 - **2018-07-25** posting of problem 105
 - **2018-08-??** posting of problem 280
-- upcoming problem: 160
+- upcoming problems: 160, something on tides
