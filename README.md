@@ -19,5 +19,6 @@ This project is secret!
 - **2018-05-24** posting of problem 381
 - **2018-06-18** posting of problem 971
 - **2018-07-25** posting of problem 105
-- **2018-08-??** posting of problem 280
-- upcoming problems: 160, something on tides
+- **2018-08-27** posting of problem 280
+- **2018-09-??** posting of problem 160
+- upcoming problems: something on tides; something on quantization
