@@ -21,5 +21,6 @@ This project is secret!
 - **2018-07-25** posting of problem 105
 - **2018-08-27** posting of problem 280
 - **2018-09-04** posting of problem 160
-- **2018-09-??** posting of problem 402
-- upcoming problems: something on tides; ...
+- **2018-09-30** posting of problem 402
+- **2018-10-17** posting of problem 188
+- upcoming problems: something E&M
