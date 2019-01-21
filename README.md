@@ -1,4 +1,4 @@
-# fluffy
+# POTT
 super-secret secret-squirrel shit
 
 ## license
