@@ -23,4 +23,7 @@ This project is secret!
 - **2018-09-04** posting of problem 160
 - **2018-09-30** posting of problem 402
 - **2018-10-17** posting of problem 188
-- upcoming problems: something E&M
+- ...
+- ...
+- **2019-09-01** sent problem 930 to team
+
