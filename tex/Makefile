@@ -8,7 +8,7 @@ PS2PDF = ps2pdf
 
 .SUFFIXES: .tex .dvi .ps .pdf
 
-ALLFILES = 105_gondola.pdf 125_sailing.pdf 160_barefoot_waterski.pdf 171_sliding_cue.pdf 188_tides.pdf \
+ALLFILES = 105_gondola.pdf 125_sailing.pdf 160_barefoot_waterski.pdf 171_sliding_cue.pdf 173_pool_clack.pdf 188_tides.pdf \
 	201_discharge.pdf 202_relativity.pdf 266_uniform_current.pdf 280_mirror.pdf 210_high_tension.pdf\
 	381_hot_water.pdf \
 	402_catastrophe.pdf 405_angular_resolution.pdf 410_double_sho.pdf 440_unlikely.pdf 490_solids.pdf \
