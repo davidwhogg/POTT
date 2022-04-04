@@ -1,0 +1,37 @@
+\documentclass[12pt]{article}
+\input{pott}
+\begin{document}\begin{pottproblem}
+\textbf{Problem 265}
+
+Here's a (supposedly) elementary problem for which different faculty
+members in the NYU Physics Department disagree on the answer:
+
+Imagine a circuit that contains a battery providing voltage $V$ and a
+resistor of resistance $R$, connected by very highly conducting
+(effectively zero resistance) wires.  In this circuit, a current
+$I=V/R$ flows steadily, and a power (energy per unit time)
+$I\,V=V^2/R$ is steadily dissipated in the resistor.
+
+The question is: How does the energy flow from the battery to the
+resistor? There can't be action at a distance, so the answer is
+expected to involve the electric and magnetic fields. But remember: In
+those conducting wires, the electric field is exactly zero! Does the
+energy flow through the space between the battery and the resistor?
+
+One calculation one can do is to compute the Poynting flux
+$$
+\vec{S} = \frac{1}{\mu_0}\,\vec{E}\times\vec{B}
+$$
+at the surface of the resistor, and integrate it over the surface of
+the resistor.  Recall that there is an electric field inside a
+resistor, and there is a magnetic field when current is flowing.  When
+you do this calculation for a cylindrical resistor of resistivity
+$\rho$ do you get the correct total power flow?
+
+If you did, you might think that the problem is solved. But if the
+power is really flowing in those fields, what experiment could you
+design to measure or capture or intercept the power flowing in those
+fields?
+
+{\normalsize\emph{Thanks to Matt Kleban (NYU) and Shura Grosberg (NYU) for input!}}
+\end{pottproblem}\end{document}
